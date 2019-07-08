@@ -5,47 +5,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/main.c52e0fe2.css">
-    <script src="/app.c3f9f951.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Document</title>
   <script src="/main.c52e0fe2.js"></script></head>
-  <body onload="init()">
-    <ul id="tabs">
-      <li><a href="#aboutMe">About Me</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#resume">My Resume</a></li>
-    </ul>
-    <div class="tabContent" id="aboutMe">
-      <h2>About Me</h2>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
-          architecto quo maxime beatae quidem officia debitis aliquam cupiditate
-          doloribus deleniti laborum suscipit autem ex, repellat unde nihil.
-          Sint, illo optio.
-        </p>
+  <body>
+    <div class="header">
+      <section>
+    <h1>Tyler Conner</h1>
+    <h3>Junior Developer</h3>
+  </section>
+    <section class="connect">
+        <h3 id="connect_anchor">Connect With Me:</h3>
+        <div class="icons">
+          <a href="https://www.linkedin.com/in/tyler-j-conner" class="fa fa-linkedin"></a>
+          <a href="https://github.com/tyler-conner" class="fa fa-github"></a>
+        </div>
+      </section>
+  </div>
+    <div class="tabs">
+      <div class="tabs__sidebar">
+        <button class="tabs__button" data-for-tab="1">About Me</button>
+        <button class="tabs__button" data-for-tab="2">Portfolio</button>
+        <button class="tabs__button" data-for-tab="3">My Resume</button>
+      </div>
+
+      <div class="tabs__content" data-tab="1">
+        <h2>About Me</h2>
+        <div class="about_text">
+          <p>
+            I am a developer with experience in political campaigns and brand
+            management.
+          </p>
+          <p>I design websites and create digital content.</p>
+          <p class="skills">
+            Java • Spring • Hibernate • JPA • JavaScript • MVC • HTML • CSS •
+            Flexbox • Grid • TDD • Agile (Scrum) • Object Oriented Programming
+            (OOP) • AJAX • JSON • Restful APIs • Responsive Design / Mobile •
+            Structured Query Language (SQL) • Relational Databases • Source
+            Control / Git
+          </p>
+          <p class="skills">
+            Adobe Premiere • Adobe Photoshop • Adobe InDesign • Adobe
+            Illustrator
+          </p>
+        </div>
+      </div>
+      <div class="tabs__content" data-tab="2">
+        <h2>Portfolio</h2>
+        <div>
+          <div class="grid-item project_container">
+            <div class="projects">
+              <div class="project-item project-1">
+                <article>
+                  <header>
+                    <h3>Virtual Pet</h3>
+                  </header>
+                  <!-- <img
+                        class="virtual_pet_photo"
+                        src="./Photos/Screen Shot 2019-06-09 at 2.24.46 PM.png"
+                      /> -->
+                  <p>
+                    As a member of a team, I helped to create an application
+                    that allows users to create and interact with a virtual pet.
+                  </p>
+                </article>
+              </div>
+              <div class="project-item project-2">
+                <article>
+                  <header>
+                    <h3>University Hospital</h3>
+                  </header>
+                  <!-- <img
+                        class="hospital_app_photo"
+                        src="./Photos/Screen Shot 2019-06-09 at 2.54.45 PM.png"
+                      /> -->
+                  <p>
+                    With a partner, I helped to design an application that could
+                    be implemented to help with personnel management at
+                    hospitals.
+                  </p>
+                </article>
+              </div>
+              <div class="project-item project-3">
+                <article>
+                  <header>
+                    <h3>FizzBuzz</h3>
+                  </header>
+                  <!-- <img
+                        class="fizzbuzz_photo"
+                        src="./Photos/Screen Shot 2019-06-09 at 3.08.03 PM.png"
+                      /> -->
+                  <p>
+                    In this simple application, a user inputs a non-negative
+                    number. If the number is a multiple of 3, the application
+                    returns "Fizz", if the number is a multiple of 5 the app
+                    returns "Buzz", and if it is a multiple of both 3 and 5,
+                    "FizzBuzz" will be returned.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tabs__content" data-tab="3">
+        <h2>My Resume</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem ipsum autem ad incidunt accusantium, rem quam odio
+            blanditiis dicta beatae, magnam asperiores fuga! Accusantium harum
+            consequuntur ullam consequatur quod illum.
+          </p>
+        </div>
       </div>
     </div>
-    <div class="tabContent" id="portfolio">
-      <h2>Portfolio</h2>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem ipsum autem ad incidunt accusantium, rem quam odio
-          blanditiis dicta beatae, magnam asperiores fuga! Accusantium harum
-          consequuntur ullam consequatur quod illum.
-        </p>
-      </div>
-    </div>
-    <div class="tabContent" id="resume">
-      <h2>My Resume</h2>
-      <div>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est,
-          nesciunt voluptatum cum asperiores facere aspernatur illum doloribus
-          sed minus qui non labore. Repellat blanditiis neque maiores explicabo,
-          nesciunt molestias aliquid.
-        </p>
-      </div>
-    </div>
+    
+    <script src="/app.c3f9f951.js"></script>
   </body>
 </html>

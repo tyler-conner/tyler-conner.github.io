@@ -14,5 +14,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyler-conner/portfoliov2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tyler-conner/portfoliov2/issues"
+  },
+  "homepage": "https://github.com/tyler-conner/portfoliov2#readme",
   "description": ""
 }
